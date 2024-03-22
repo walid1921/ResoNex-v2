@@ -1,7 +1,7 @@
 import React from "react";
 
 const layout = ({ children }: { children: React.ReactNode }) => {
-  return <div className="bg-red-200">{children}</div>;
+  return <div className="h-full flex justify-center items-center">{children}</div>;
 };
 
 export default layout;
