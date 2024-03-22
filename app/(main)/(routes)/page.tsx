@@ -13,6 +13,7 @@ export default async function Home() {
       {tasks.map((task) => (
         <div key={task.id}>{task.title}</div>
       ))}
+      <h2>Test</h2>
     </div>
   );
 }
